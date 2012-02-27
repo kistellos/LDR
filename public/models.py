@@ -13,7 +13,7 @@ class LanguageObject(models.Model):
 
     def __unicode__(self):
         return '%s %s' % (self.article, self.phrase)
-# Test
+# 
 #    TYPE_CHOICES = (
 #        ('NO', 'noun'),
 #        ('VE', 'verb'),
